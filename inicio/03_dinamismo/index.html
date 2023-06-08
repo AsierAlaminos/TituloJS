@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="containter">
+        <h1>Dinamismo con nodos</h1>
+        <p>Contador de caracteres <span>0</span></p>
+        <!--Al llegar a 255 que salga un mensaje "caracteres superados"-->
+        <input placeholder="Escribe un texto" type="text" name="input" class="form-control" id="input_nombre">
+        <h2>lista uno</h2>
+        <div class="lista-uno mb-4">
+            <ul class="list-group" id="lista">
+                <li class="list-group-item li-hijo">Nodo uno lista 1</li>
+                <li class="list-group-item li-hijo">Nodo dos lista 1</li>
+                <li class="list-group-item li-hijo">Nodo tres lista 1</li>
+                <li class="list-group-item li-hijo">Nodo cuatro lista 1</li>
+            </ul>
+        </div>
+        <h2>lista dos</h2>
+        <div class="lista-dos mb-4">
+            <ul class="list-group" id="lista">
+                <li class="list-group-item li-hijo">Nodo uno lista 2</li>
+                <li class="list-group-item li-hijo">Nodo dos lista 2</li>
+                <li class="list-group-item li-hijo">Nodo tres lista 2</li>
+                <li class="list-group-item li-hijo">Nodo cuatro lista 2</li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-primary" id="botonPulsar">Pulsar</button>
+        <button type="button" class="btn btn-primary" id="botonBorrar">Borrar</button>
+        <input type="text" name="input" class="form-control" id="input_nombre">
+        <select id="select" class="form-select" aria-label="Default select example">
+            <option value="1">Lista 1</option>
+            <option value="2">Lista 2</option>
+        </select>
+    </div>
+    <script src="./utils/js/01_nodos.js"></script>
+</body>
+</html>
