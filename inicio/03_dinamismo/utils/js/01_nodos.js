@@ -67,3 +67,5 @@ li.forEach(e => {
 botonBorrar.addEventListener("click", (e) => {
 	pulsado.remove();
 });
+
+
