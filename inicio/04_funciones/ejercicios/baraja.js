@@ -1,6 +1,7 @@
 //Crear un array con las cartas del poker
 
-function generarBaraja(cartas, cartasMayores, palos) {
+function generarBaraja(cartasMayores, palos) {
+	let cartas = [];
 	for (let i = 0; i < palos.length; i++) {
 		for (let j = 1; j < 14; j++) {
 			j >= 11 ? cartas.push(cartasMayores[13 - j] + palos[i]) : cartas.push(j + palos[i]);
@@ -75,14 +76,24 @@ console.log(puntuacion);
 let cartas = [];
 
 
-let total;
+let total = 0;
 let botonInicio = document.querySelector("#inicio");
 let botonPedir = document.querySelector("#pedir");
+let botonPasar = document.querySelector("#pasar");
+let spanNombre = document.querySelector("#nombre");
+let spanPunt1 = document.querySelector("#punt1");
+let spanPunt2 = document.querySelector("#punt2");
+
+spanNombre.innerText = prompt("Dime tu nombre:");
 
 botonInicio.addEventListener("click", (e) => {
 	if (cartas.length == 0){
-		cartas = generarBaraja(cartas, ["K", "Q", "J"],["P", "R", "T", "C"]);
+		cartas = generarBaraja(["K", "Q", "J"],["P", "R", "T", "C"]);
 		botonInicio.classList.add("disabled");
+		botonPedir.classList.remove("disabled");
+		botonPasar.classList.remove("disabled");
+		spanPunt1.innerText = 0;
+		spanPunt2.innerText = 0;
 		alert("Juego iniciado");
 	}else{
 		alert("Ya hay una baraja");
@@ -90,6 +101,8 @@ botonInicio.addEventListener("click", (e) => {
 });
 
 botonPedir.addEventListener("click", (e) => {
+	if (cartas.length == 0)
+		cartas = generarBaraja(["K", "Q", "J"],["P", "R", "T", "C"]);
 	total += pedirCarta((numCarta) => {
 	switch (numCarta) {
 		case "K":
@@ -106,7 +119,5 @@ botonPedir.addEventListener("click", (e) => {
 			break;
 	}
 	});
-
+	spanPunt1.innerText = total;
 });
-
-console.log(total);
