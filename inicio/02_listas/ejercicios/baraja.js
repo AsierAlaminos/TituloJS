@@ -28,8 +28,8 @@ rombos = cartas.filter((e) => {
 
 //console.log(rombos);
 let random;
-let random2;
-let carta;
+lhttps://github.com/AsierAlaminos/TituloJSet random2;
+//let carta;
 
 /*for (let i = 0; i < cartas.length; i++) {
 	random = parseInt(Math.random() * 51);
@@ -46,19 +46,25 @@ console.log(cartas);
 let confirmacion;
 let puntuacion = 0;
 let numCarta;
+let carta;
 
 do {
 	carta = cartas.shift();
 	confirmacion = confirm(`Tu cartas es: ${carta}\n¿Quieres otra?`);
 	numCarta = carta.substring(0, carta.length);
-	if (numCarta == 'K'){
-		puntuacion += 13;
-	}else if (numCarta == 'Q'){
-		puntuacion += 12;
-	}else if (numCarta == 'J'){
-		puntuacion += 11;
-	}else{
-		puntuacion += parseInt(numCarta);
+	switch (numCarta) {
+		case "K":
+			puntuacion += 13;
+			break;
+		case "Q":
+			puntuacion += 12;
+			break;
+		case "J":
+			puntuacion += 11;
+			break;
+		default:
+			puntuacion += parseInt(numCarta);
+			break;
 	}
 
 } while (confirmacion);

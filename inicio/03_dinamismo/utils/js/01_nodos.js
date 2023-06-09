@@ -1,4 +1,4 @@
-//Busqueda de elementos por js
+
 
 //Busqueda por Id
 /*let nodoBoton = document.getElementById("botonPulsar");
@@ -68,4 +68,12 @@ botonBorrar.addEventListener("click", (e) => {
 	pulsado.remove();
 });
 
+let inputTexto = document.querySelector("#input_char");
+let spanContador = document.querySelector("span");
 
+inputTexto.addEventListener("keyup", (e) => {
+	if (inputTexto.value.length > 255)
+		alert("El texto no puede ser mayor a 255 caracteres");
+	else
+		spanContador.innerText = inputTexto.value.length;
+});
