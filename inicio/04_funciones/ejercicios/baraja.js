@@ -72,26 +72,37 @@ cartas = _.shuffle(cartas);
 console.log(cartas);
 
 console.log(puntuacion);
-*/
+
+setInterval(() => {
+	console.log("Ejecución interval");
+}, 5000);*/
+
+setTimeout(() => {
+	spanNombre.innerText = prompt("Dime tu nombre:");
+}, 500);
+
 let cartas = [];
-
-
 let total = 0;
 let botonInicio = document.querySelector("#inicio");
 let botonPedir = document.querySelector("#pedir");
 let botonPasar = document.querySelector("#pasar");
 let spanNombre = document.querySelector("#nombre");
-let spanPunt1 = document.querySelector("#punt1");
-let spanPunt2 = document.querySelector("#punt2");
+let spanPunt1 = document.querySelector("#p1 h2 #punt");
+let spanPunt2 = document.querySelector("#p2 h2 #punt");
+let imgCarta = document.querySelector("#imgCarta");
+let tapeteP1 = document.querySelector("#p1");
+let tapeteP2 = document.querySelector("#p2");
 
-spanNombre.innerText = prompt("Dime tu nombre:");
 
 botonInicio.addEventListener("click", (e) => {
 	if (cartas.length == 0){
 		cartas = generarBaraja(["K", "Q", "J"],["P", "R", "T", "C"]);
-		botonInicio.classList.add("disabled");
+		/*botonInicio.classList.add("disabled");
 		botonPedir.classList.remove("disabled");
-		botonPasar.classList.remove("disabled");
+		botonPasar.classList.remove("disabled");*/
+		botonInicio.disabled = true;
+		botonPedir.disabled = false;
+		botonPasar.disabled = false;
 		spanPunt1.innerText = 0;
 		spanPunt2.innerText = 0;
 		alert("Juego iniciado");
@@ -119,5 +130,6 @@ botonPedir.addEventListener("click", (e) => {
 			break;
 	}
 	});
+	tapeteP1.innerHTML += "<img id='imgCarta' style='height:100px;' src='./images/10C.png' alt=''>"
 	spanPunt1.innerText = total;
 });
