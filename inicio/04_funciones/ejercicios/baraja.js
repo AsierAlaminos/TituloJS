@@ -29,9 +29,10 @@ function generarBaraja(cartasMayores, palos) {
 	return puntuacion;
 }*/
 
+let carta;
+
 function pedirCarta(funcionValor){
 	let numCarta;
-	let carta;
 
 	carta = cartas.shift();
 	console.log(carta);
@@ -87,8 +88,8 @@ let botonInicio = document.querySelector("#inicio");
 let botonPedir = document.querySelector("#pedir");
 let botonPasar = document.querySelector("#pasar");
 let spanNombre = document.querySelector("#nombre");
-let spanPunt1 = document.querySelector("#p1 h2 #punt");
-let spanPunt2 = document.querySelector("#p2 h2 #punt");
+let spanPunt1 = document.querySelector("#punt1");
+let spanPunt2 = document.querySelector("#punt2");
 let imgCarta = document.querySelector("#imgCarta");
 let tapeteP1 = document.querySelector("#p1");
 let tapeteP2 = document.querySelector("#p2");
@@ -96,7 +97,7 @@ let tapeteP2 = document.querySelector("#p2");
 
 botonInicio.addEventListener("click", (e) => {
 	if (cartas.length == 0){
-		cartas = generarBaraja(["K", "Q", "J"],["P", "R", "T", "C"]);
+		cartas = generarBaraja(["K", "Q", "J"],["P", "D", "T", "C"]);
 		/*botonInicio.classList.add("disabled");
 		botonPedir.classList.remove("disabled");
 		botonPasar.classList.remove("disabled");*/
@@ -113,7 +114,7 @@ botonInicio.addEventListener("click", (e) => {
 
 botonPedir.addEventListener("click", (e) => {
 	if (cartas.length == 0)
-		cartas = generarBaraja(["K", "Q", "J"],["P", "R", "T", "C"]);
+		cartas = generarBaraja(["K", "Q", "J"],["P", "D", "T", "C"]);
 	total += pedirCarta((numCarta) => {
 	switch (numCarta) {
 		case "K":
@@ -130,6 +131,7 @@ botonPedir.addEventListener("click", (e) => {
 			break;
 	}
 	});
-	tapeteP1.innerHTML += "<img id='imgCarta' style='height:100px;' src='./images/10C.png' alt=''>"
-	spanPunt1.innerText = total;
+	tapeteP1.innerHTML += `<img id='imgCarta' style='height:100px;' src='./images/${carta}.png' alt=''>`
+	console.log(total);
+	spanPunt1.innerText = `${total}`;
 });

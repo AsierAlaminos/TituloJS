@@ -45,3 +45,6 @@ parseInt(numero);
 ```js
 parseFloat(numero);
 ```
+
+[[Interacciones]]
+[[Dinamismo]]

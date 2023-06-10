@@ -33,3 +33,6 @@ confirmacion ? console.log("Seleccionado continuar") : console.log("Seleccionado
 ```js
 nombre = prompt("Por favor introduce tu nombre");
 ```
+
+[[Variables]]
+[[Dinamismo]]
