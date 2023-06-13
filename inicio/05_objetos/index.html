@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title></title>
+		<title>Document</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="./utils/css/style.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<!--<script src="./utils/js/01_objetos.js"></script>-->
-		<script src="./ejercicios/asignatura.js"></script>
-		<script src="./ejercicios/curso.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+		<div class="container">
+			<button type="button" class="btn btn-primary" id="inicio">Empezar</button>
+			<button type="button" class="btn btn-success" disabled id="pedir">Pedir</button>
+			<button type="button" class="btn btn-danger" disabled id="pasar">Pasar</button>
+			<div id="p1">
+				<h2>Puntuación de <span id="nombre"></span>: </h2><h3><span id="punt1"></span></h3>
+				<div id="tapete1"></div>
+			</div>
+			<div id="p2">
+				<h2>Puntuación de la máquina: </h2><h3><span id="punt2"></span></h3>
+				<div id="tapete2"></div>
+			</div>
+		</div>
+		<!--<script src="./js/01_funciones.js"></script>-->
+		<script src="./ejercicios/carta.js"></script>
+		<script src="./ejercicios/baraja.js"></script>
 	</body>
 </html>
