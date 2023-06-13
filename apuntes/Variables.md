@@ -46,5 +46,7 @@ parseInt(numero);
 parseFloat(numero);
 ```
 
+---
+
 [[Interacciones]]
 [[Dinamismo]]

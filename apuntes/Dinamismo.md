@@ -58,5 +58,7 @@ También se puede buscar por herencia
 let nodoQuery = document.querySelector("div.btn ul li.lista");
 ```
 
-[[Interacciones]]
+---
+
+[[Variables]]
 [[Eventos]]

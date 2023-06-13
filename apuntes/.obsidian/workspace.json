@@ -66,9 +66,44 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "80ca1d0255703f23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Objetos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "056eed22de90500e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Mapa_mental.canvas",
+                "viewState": {
+                  "x": 303.0835808731612,
+                  "y": 113.17081101310411,
+                  "zoom": -1.5
+                }
+              }
+            }
+          },
+          {
+            "id": "0c72da7bfab6cc6d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -87,7 +122,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -134,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Funciones.md",
+                "file": "Mapa_mental.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Funciones.md",
+                "file": "Mapa_mental.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Funciones.md"
+                "file": "Mapa_mental.canvas"
               }
             }
           }
@@ -195,16 +230,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "7eddabd6faacd1c8",
+  "active": "056eed22de90500e",
   "lastOpenFiles": [
-    "Eventos.md",
+    "Interacciones.md",
+    "Dinamismo.md",
+    "Mapa_mental.canvas",
+    "Objetos.md",
     "Funciones.md",
+    "Eventos.md",
+    "Variables.md",
     "2023-06-10.md",
     "Untitled 1.canvas",
-    "Untitled 2.canvas",
-    "Untitled.canvas",
-    "Variables.md",
-    "Dinamismo.md",
-    "Interacciones.md"
+    "Untitled 2.canvas"
   ]
 }

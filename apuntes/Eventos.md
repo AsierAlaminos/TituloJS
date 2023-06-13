@@ -17,3 +17,4 @@ inputTexto.addEventListener("keyup", (e) => {
 });
 ```
 
+---

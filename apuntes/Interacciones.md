@@ -34,5 +34,6 @@ confirmacion ? console.log("Seleccionado continuar") : console.log("Seleccionado
 nombre = prompt("Por favor introduce tu nombre");
 ```
 
+---
+
 [[Variables]]
-[[Dinamismo]]

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"file","file":"Funciones.md","id":"4cb29e3117ecba16","x":-160,"y":-520,"width":400,"height":400},
+		{"type":"text","text":"Mapa Mental JavaScript\n","id":"467dfa6abb9aab76","x":-1050,"y":-550,"width":250,"height":60,"color":"5"},
+		{"type":"file","file":"Dinamismo.md","id":"e4b72e47bfd5068c","x":-160,"y":520,"width":400,"height":400},
+		{"type":"file","file":"Interacciones.md","id":"d5867c2138103e11","x":-160,"y":0,"width":400,"height":400},
+		{"type":"file","file":"Objetos.md","id":"7f0d22835f8101cd","x":-160,"y":-1040,"width":400,"height":400},
+		{"type":"file","file":"Variables.md","id":"d41b496e00be71fa","x":-925,"y":-240,"width":400,"height":400},
+		{"type":"file","file":"Eventos.md","id":"2c88401e415d0566","x":480,"y":520,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"deda2bf6e7bf6d5d","fromNode":"d41b496e00be71fa","fromSide":"right","toNode":"d5867c2138103e11","toSide":"left"},
+		{"id":"41743c415bce8b5f","fromNode":"d41b496e00be71fa","fromSide":"right","toNode":"4cb29e3117ecba16","toSide":"left"},
+		{"id":"ac89346c6853e247","fromNode":"d41b496e00be71fa","fromSide":"right","toNode":"7f0d22835f8101cd","toSide":"left"},
+		{"id":"03d12e69dd9e58c9","fromNode":"d41b496e00be71fa","fromSide":"right","toNode":"e4b72e47bfd5068c","toSide":"left"},
+		{"id":"f0a807bd5f824f9d","fromNode":"e4b72e47bfd5068c","fromSide":"right","toNode":"2c88401e415d0566","toSide":"left"},
+		{"id":"02531caf1eb04a32","fromNode":"4cb29e3117ecba16","fromSide":"top","toNode":"7f0d22835f8101cd","toSide":"bottom"},
+		{"id":"5e3d31ff589e7268","fromNode":"7f0d22835f8101cd","fromSide":"bottom","toNode":"4cb29e3117ecba16","toSide":"top"},
+		{"id":"9f6e736954fb730a","fromNode":"4cb29e3117ecba16","fromSide":"bottom","toNode":"d5867c2138103e11","toSide":"top"},
+		{"id":"be7ee0ee1c396d3a","fromNode":"d5867c2138103e11","fromSide":"top","toNode":"4cb29e3117ecba16","toSide":"bottom"},
+		{"id":"a72e13f98b5953aa","fromNode":"2c88401e415d0566","fromSide":"left","toNode":"e4b72e47bfd5068c","toSide":"right"}
+	]
+}
