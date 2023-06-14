@@ -87,9 +87,9 @@
               "state": {
                 "file": "Mapa_mental.canvas",
                 "viewState": {
-                  "x": 303.0835808731612,
-                  "y": 113.17081101310411,
-                  "zoom": -1.5
+                  "x": 85.91197113290401,
+                  "y": 15.132017749239761,
+                  "zoom": -1
                 }
               }
             }
@@ -169,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mapa_mental.canvas",
+                "file": "Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mapa_mental.canvas",
+                "file": "Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mapa_mental.canvas"
+                "file": "Variables.md"
               }
             }
           }
