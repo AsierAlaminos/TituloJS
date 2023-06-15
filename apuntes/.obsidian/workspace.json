@@ -115,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -181,6 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Promesas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,6 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Promesas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +220,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Promesas.md"
+              }
             }
           }
         ]
@@ -238,7 +242,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0c72da7bfab6cc6d",
+  "active": "e163aff83bfcc258",
   "lastOpenFiles": [
     "Mapa_mental.canvas",
     "Promesas.md",
