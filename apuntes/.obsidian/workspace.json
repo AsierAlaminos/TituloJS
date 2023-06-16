@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "e163aff83bfcc258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Promesas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "056eed22de90500e",
             "type": "leaf",
             "state": {
@@ -88,7 +100,7 @@
                 "file": "Mapa_mental.canvas",
                 "viewState": {
                   "x": 85.91197113290401,
-                  "y": 15.132017749239761,
+                  "y": 239.87938789217657,
                   "zoom": -1
                 }
               }
@@ -103,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -169,7 +181,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +197,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,9 +218,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Variables.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -230,11 +238,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "056eed22de90500e",
+  "active": "0c72da7bfab6cc6d",
   "lastOpenFiles": [
+    "Mapa_mental.canvas",
+    "Promesas.md",
     "Interacciones.md",
     "Dinamismo.md",
-    "Mapa_mental.canvas",
     "Objetos.md",
     "Funciones.md",
     "Eventos.md",
